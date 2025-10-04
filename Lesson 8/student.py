@@ -1,0 +1,12 @@
+class Student:
+    school_name = "Digital school"
+
+def __init__(self, name, age, course):
+    self.name = name
+    self.age = age
+    self.course = course
+
+student_1 = Student ("Bob", 37, "Python")
+student_2 = Student ("Marley", 40, "HTML")
+print(student_1.course)
+print(student_2.course)
