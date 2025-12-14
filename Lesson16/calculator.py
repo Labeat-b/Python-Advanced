@@ -3,12 +3,14 @@ import streamlit as st
 def calculate(num1, num2, operation):
     if operation == "Addition":
         result = num1 + num2
-
+        return result
     elif operation == "Subtraction":
         result = num1 - num2
+        return result
     
     elif operation == "Multiplication":
         result = num1 * num2
+        return result
     
     elif operation == "Division":
         try:
